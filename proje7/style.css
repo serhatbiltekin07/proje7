@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.nav-1 {
+  margin-top: 25px;
+}
+.nav-1 a {
+  display: inline-block;
+  margin-left: 25px;
+  color: #000;
+  opacity: 0.75;
+  border-bottom: 0.6;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: -5px;
+}
+.nav-1 .active {
+  padding: bottom 2px;
+}
+
+.nav-1 a:hover {
+  background-color: #e0144c;
+}
+.nav-2 {
+  margin: 10px;
+  margin-left: 1470px;
+  margin-bottom: 100px;
+  margin-top: -45px;
+  border: 10px;
+  padding: 16px;
+}
+.nav-2 a:hover {
+  background-color: #e0144c;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-2 a {
+  color: #000;
+  opacity: 0.75;
+  border-bottom: 0.6;
+  margin: 10px;
+  border-radius: 5px;
+}
+.nav-2 .sin {
+  padding: 10px;
+  margin: 15px;
+  border: 10px;
+  background-color: #47b5ff;
+  border-radius: 5px;
+  font-size: large;
+  color: #fff;
+}
+
+#logo {
+  height: 233px;
+  margin-top: 150px;
+}
+.container {
+  padding: 200px;
+  margin-left: 495px;
+  margin-top: -280px;
+
+  background-position: center;
+  background-size: cover;
+}
+.container .button {
+  border-radius: 50px;
+}
+
+.search-bar {
+  background-color: #d8d8d8;
+  width: 100%;
+  max-width: 480px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #5f6368;
+}
+
+::placeholder {
+  color: #5f6368;
+}
+
+.search-bar button image {
+  width: 25px;
+  background-image: url(img/icongoogle.png);
+}
+.search-bar button {
+  border: 1px;
+  border-radius: 50%;
+  width: 60px;
+  height: 36px;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.button {
+  margin-left: 70px;
+}
+
+.footer_main {
+  border-bottom: 10px;
+  width: auto;
+  background-color: #eaeaea;
+  margin-top: 220px;
+  padding-bottom: 50px;
+}
+
+.footer-1 a {
+  color: #5f6368;
+  background-color: #eaeaea;
+  padding-bottom: 41px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.footer-2 a {
+  color: #5f6368;
+  float: right;
+  text-align: center;
+  background-color: #eaeaea;
+  padding-right: 30px;
+  padding-bottom: 32px;
+}
